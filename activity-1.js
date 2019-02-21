@@ -18,6 +18,5 @@ var dev = new JavaScriptDeveloper('Adrian','Acosta');
 console.log(dev.getName());
 console.log(dev.getJob());
 
-var getGreeting = () =>{
-    return 'Welcome to React Dev';
-};
+var getGreeting = () => 'Welcome to React Dev';
+console.log(getGreeting());
